@@ -1,6 +1,7 @@
-# Práctica universitaria de C# (2022): Mover un personaje con WASD y físicas realistas (Unity)
+# Práctica universitaria de C# (2022): Mover un personaje con WASD con físicas realistas (Unity)
 08/01/2022
 ## ASOCIAR UN CÓDIGO A UN ELEMENTO (AL JUGADOR)
+- Script: PlayerController
 -En el Inspector →  Add Component.
 -Buscamos Script y le damos a New Script, y lo titulamos en este caso “PlayerController”.
 -Se nos pondrá el script en el Inspector, y debemos hacer doble click en el script de PlayerController.
@@ -12,7 +13,10 @@
 ## FÍSICAS REALES
 - Empuja al objeto como si le dieras un toque con el dedo. Tiene inercia, resbala, rebota y frena poco a poco.
 - El jugador se desplaza lateralmente. No rota para mirar a dónde va, simplemente se desliza en los ejes X y Z.
-- Si lo hubiéramos hecho de otra manera habría quedado más matemático y con movimientos muy rígidos (frenadas en seco, puede atravesar paredes y rota)
+
+## LA OTRA OPCIÓN: RÍGIDO (SCRIPT POR DEFECTO DE UNITY)
+- El otro script (PlayerControllerDefault) es el que pone Unity por defecto para mover un objeto.
+- Es más feo, más matemático y con movimientos muy rígidos (frenadas en seco, puede atravesar paredes y rota).
 
 ## CONTEXTO
 - Motor gráfico Unity 2018
