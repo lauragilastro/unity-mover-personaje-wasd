@@ -1,5 +1,5 @@
 # Práctica universitaria de C# (2022): Mover un personaje con WASD con físicas realistas (Unity)
-08/01/2022
+01/2022
 ## ASOCIAR UN CÓDIGO A UN ELEMENTO (AL JUGADOR)
 - Script: PlayerController
 -En el Inspector →  Add Component.
